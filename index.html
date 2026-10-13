@@ -1,0 +1,505 @@
+    <!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js-ready');</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ABROLE STUDIO — Abhi Yadav | Video Editor &amp; Graphic Designer</title>
+<meta name="description" content="ABROLE STUDIO by Abhi Yadav — cinematic video editing, motion graphics, graphic design and AI-powered visual content. I turn raw footage into powerful visual stories that connect, engage and leave an impact." />
+<meta name="theme-color" content="#05070e" />
+<meta name="author" content="Abhi Yadav" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ABROLE STUDIO — Abhi Yadav | Video Editor &amp; Graphic Designer" />
+<meta property="og:description" content="Cinematic precision. Creative thinking. Premium execution." />
+<meta property="og:image" content="assets/hero-portrait.jpg" />
+<link rel="icon" href="assets/logo-mark.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+
+<!-- Ambient background -->
+<div class="bg-layer" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow--1"></div>
+  <div class="bg-glow bg-glow--2"></div>
+</div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Scroll progress -->
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#home" class="brand" aria-label="ABROLE STUDIO home">
+      <span class="brand-mark"><img src="assets/logo-mark.png" alt="ABROLE STUDIO monogram" width="40" height="40" /></span>
+      <span class="brand-text"><b>ABROLE</b><span>STUDIO</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#home" class="is-active">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-cta">
+      <a href="#contact" class="btn btn--draw" data-magnetic>Start a Project <span class="arrow">→</span></a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+  <a href="#home">Home</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <div class="mm-foot">
+    <a href="https://wa.me/919918852661" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="mailto:abrolestudio@gmail.com">abrolestudio@gmail.com</a>
+    <a href="tel:+919918852661">+91 99188 52661</a>
+  </div>
+</nav>
+
+<main id="home">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="assets/hero-bg.jpg" alt="" fetchpriority="high" />
+    </div>
+    <span class="hero-lightstreak" aria-hidden="true"></span>
+    <span class="hero-lightstreak hero-lightstreak--2" aria-hidden="true"></span>
+    <img class="hero-monogram" src="assets/logo-mark.png" alt="" aria-hidden="true" />
+
+    <div class="hero-inner">
+      <!-- Copy -->
+      <div class="hero-copy">
+        <span class="hero-hi" data-reveal="up">Hi, I&rsquo;m</span>
+        <h1 class="hero-name">
+          <span class="ln"><span>Abhi</span></span>
+          <span class="ln"><span>Yadav</span></span>
+        </h1>
+        <p class="hero-role" data-reveal="up">
+          <span class="blue-text">Video Editor</span> &amp; <span class="blue-text">Graphic Designer</span> crafting cinematic stories &amp; motion.
+        </p>
+        <p class="hero-tag" data-reveal="up">
+          &ldquo;I turn raw footage into powerful visual stories that connect, engage and leave an impact.&rdquo;
+        </p>
+
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn--primary btn--lg" data-reveal="up" data-magnetic>View My Work <span class="arrow">→</span></a>
+          <a href="assets/Abhi_Yadav_Resume.pdf" class="btn btn--ghost btn--lg" data-reveal="up" download>Download Resume <span class="arrow">↓</span></a>
+        </div>
+
+        <div class="hero-stats" data-reveal="up">
+          <div class="stat">
+            <div class="stat-num"><span data-count="500">0</span><span class="plus">+</span></div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num"><span data-count="200">0</span><span class="plus">+</span></div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num"><span data-count="5">0</span><span class="plus">+</span></div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual -->
+      <div class="hero-visual">
+        <div class="portrait-wrap">
+          <span class="portrait-glow" aria-hidden="true"></span>
+          <div class="portrait" data-reveal="mask">
+            <img src="assets/hero-portrait.jpg" alt="Portrait of Abhi Yadav, video editor and graphic designer" width="900" height="1125" />
+            <span class="portrait-sweep" id="portraitSweep" aria-hidden="true"></span>
+          </div>
+          <aside class="identity" data-reveal="up">
+            <div class="id-roles"><span>VIDEO EDITOR</span><span>GRAPHIC DESIGNER</span></div>
+            <div class="id-line">Ideas into motion. Visuals into impact.</div>
+            <div class="id-tags"><span>Edit</span><span>Create</span><span>Inspire</span></div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <!-- Socials -->
+    <div class="hero-socials" aria-label="Social links">
+      <a class="social-btn" href="https://instagram.com/abrolestudio" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a class="social-btn" href="https://youtube.com/@abrolestudio" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.45-5.17a2.6 2.6 0 0 0-1.83-1.84C19.05 4.5 12 4.5 12 4.5s-7.05 0-8.72.49A2.6 2.6 0 0 0 1.45 6.83C1 8.5 1 12 1 12s0 3.5.45 5.17a2.6 2.6 0 0 0 1.83 1.84C4.95 19.5 12 19.5 12 19.5s7.05 0 8.72-.49a2.6 2.6 0 0 0 1.83-1.84C23 15.5 23 12 23 12Zm-13 3.2V8.8l5.2 3.2-5.2 3.2Z"/></svg>
+      </a>
+      <a class="social-btn" href="https://wa.me/919918852661" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Zm4.5-5.9c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.1-.2 0-.4.1-.5l.5-.6c.1-.2.1-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3c-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.2.7 3 .6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1Z"/></svg>
+      </a>
+    </div>
+
+    <a href="#showreel" class="scroll-ind" aria-label="Scroll down">
+      <span>Scroll Down</span>
+      <span class="line" aria-hidden="true"></span>
+    </a>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marqueeTrack">
+      <span>Cinematic Precision</span><span class="out">Creative Thinking</span><span>Premium Execution</span>
+      <span class="out">Video Editing</span><span>Motion Graphics</span><span class="out">Visual Storytelling</span>
+      <span>Cinematic Precision</span><span class="out">Creative Thinking</span><span>Premium Execution</span>
+      <span class="out">Video Editing</span><span>Motion Graphics</span><span class="out">Visual Storytelling</span>
+    </div>
+  </div>
+
+  <!-- ============ SHOWREEL ============ -->
+  <section class="section section--tight" id="showreel">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <span class="label" data-reveal="up">Showreel</span>
+        <h2 class="section-title" data-reveal="up">The Reel</h2>
+        <p class="section-sub" data-reveal="up">A cut of cinematic edits, motion graphics and brand films — built frame by frame.</p>
+      </div>
+
+      <div class="reel-frame" data-reveal="scale" id="reelFrame">
+        <img src="assets/work-cinematic.jpg" alt="Showreel preview" />
+        <div class="reel-overlay" id="reelOverlay">
+          <button class="reel-play" id="reelPlay" aria-label="Play showreel">
+            <span class="play-circle">
+              <svg viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            <small>Play Showreel</small>
+          </button>
+        </div>
+      </div>
+
+      <div class="reel-meta" data-reveal="up">
+        <span><b>Edit</b> &nbsp;·&nbsp; Color &nbsp;·&nbsp; Sound</span>
+        <span>4K &nbsp;·&nbsp; 24fps &nbsp;·&nbsp; Cinematic Grade</span>
+        <span>Abrole Studio &nbsp;·&nbsp; 2025</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-head">
+        <span class="label" data-reveal="up">Portfolio</span>
+        <h2 class="section-title" data-reveal="up">Selected Works</h2>
+        <p class="section-sub" data-reveal="up">Crafted with precision. Designed to make an impact.</p>
+      </div>
+
+      <div class="work-grid" id="workGrid">
+        <!-- Cards injected by JS from WORK data -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="label" data-reveal="up">Services</span>
+        <h2 class="section-title" data-reveal="up">What I Do</h2>
+        <p class="section-sub" data-reveal="up">Creative execution meets visual storytelling.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card" data-reveal="up">
+          <div class="service-num">01</div>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M2.5 9.5h19M7 5v14M17 5v14"/></svg></div>
+          <h3 class="service-title">Video Editing</h3>
+          <p class="service-text">Cinematic storytelling, professional pacing, sound design, color grading and polished final delivery.</p>
+        </article>
+
+        <article class="service-card" data-reveal="up">
+          <div class="service-num">02</div>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l2.4 5.2L20 9l-4 3.9.9 5.6L12 15.8 7.1 18.5 8 12.9 4 9l5.6-.8z"/></svg></div>
+          <h3 class="service-title">Graphic Design</h3>
+          <p class="service-text">Social media creatives, promotional graphics, campaign visuals and brand-focused design.</p>
+        </article>
+
+        <article class="service-card" data-reveal="up">
+          <div class="service-num">03</div>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l6 3.5-6 3.5z" fill="currentColor" stroke="none"/></svg></div>
+          <h3 class="service-title">Motion Graphics</h3>
+          <p class="service-text">Animated typography, kinetic text, dynamic transitions, logo animation and visual effects.</p>
+        </article>
+
+        <article class="service-card" data-reveal="up">
+          <div class="service-num">04</div>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v3M12 18v3M4.2 7.2l2.1 2.1M17.7 14.7l2.1 2.1M3 12h3M18 12h3M4.2 16.8l2.1-2.1M17.7 9.3l2.1-2.1"/><circle cx="12" cy="12" r="3.2"/></svg></div>
+          <h3 class="service-title">AI-Powered Content</h3>
+          <p class="service-text">AI-assisted visuals, creative video concepts, cinematic AI scenes and next-generation content production.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual" data-reveal="left">
+          <div class="frame"><img src="assets/about-workspace.jpg" alt="Abhi Yadav's editing and design workspace" width="1024" height="1536" /></div>
+          <div class="badge"><b>2+ yrs</b><span>Senior Graphic Designer</span></div>
+        </div>
+
+        <div class="about-copy">
+          <span class="label" data-reveal="up">About</span>
+          <h2 class="section-title" data-reveal="up" style="margin-top:18px;">Behind the Frames</h2>
+          <p data-reveal="up">
+            I&rsquo;m <strong>Abhi Yadav</strong> — a creative professional who blends technical editing,
+            visual design and storytelling to turn ideas into engaging digital experiences. Over the past
+            few years I&rsquo;ve worked across promotional videos, short films, brand content and social
+            media, delivering polished, high-impact work.
+          </p>
+          <p data-reveal="up">
+            Currently a <strong>Senior Graphic Designer at Hospitality Minds</strong>, I also work as a
+            <strong>Video &amp; Audio Editor</strong> — pairing cinematic editing with strong design and
+            sound. I collaborate closely with clients to understand their vision and execute it creatively,
+            efficiently and with real attention to detail.
+          </p>
+
+          <div class="skills" data-reveal="up">
+            <span>Video Editing</span>
+            <span>Graphic Design</span>
+            <span>Motion Graphics</span>
+            <span>Color Grading</span>
+            <span>Visual Storytelling</span>
+            <span>Social Media Content</span>
+            <span>AI-Powered Visual Production</span>
+          </div>
+
+          <div class="exp" data-reveal="up">
+            <div class="exp-item">
+              <div><h4>Senior Graphic Designer — Hospitality Minds</h4><p>Brand &amp; social creatives, campaign design, visual systems.</p></div>
+              <span class="when">2023 — Present</span>
+            </div>
+            <div class="exp-item">
+              <div><h4>Video Editor — Timenagain by Jyoti Digital</h4><p>Promotional &amp; social videos, color correction, audio syncing.</p></div>
+              <span class="when">2023 — Present</span>
+            </div>
+            <div class="exp-item">
+              <div><h4>Video &amp; Audio Editing</h4><p>Voiceovers, podcasts, short films &amp; promotional audio.</p></div>
+              <span class="when">2023 — Present</span>
+            </div>
+          </div>
+
+          <div class="process" data-reveal="up">
+            <span class="step">Idea</span><span class="sep">→</span>
+            <span class="step">Edit</span><span class="sep">→</span>
+            <span class="step">Design</span><span class="sep">→</span>
+            <span class="step">Motion</span><span class="sep">→</span>
+            <span class="step">Final Cut</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORKFLOW ============ -->
+  <section class="section" id="workflow">
+    <div class="container">
+      <div class="section-head">
+        <span class="label" data-reveal="up">Process</span>
+        <h2 class="section-title" data-reveal="up">From Concept to Final Cut</h2>
+      </div>
+
+      <div class="flow" id="flow">
+        <div class="flow-line" aria-hidden="true"><i id="flowLine"></i></div>
+        <div class="flow-step" data-reveal="up">
+          <div class="flow-node">01</div>
+          <h4>Discover</h4>
+          <p>Understand the brief, audience and creative objective.</p>
+        </div>
+        <div class="flow-step" data-reveal="up">
+          <div class="flow-node">02</div>
+          <h4>Create</h4>
+          <p>Develop the visual direction, edit and design.</p>
+        </div>
+        <div class="flow-step" data-reveal="up">
+          <div class="flow-node">03</div>
+          <h4>Refine</h4>
+          <p>Polish motion, sound, color, pacing and details.</p>
+        </div>
+        <div class="flow-step" data-reveal="up">
+          <div class="flow-node">04</div>
+          <h4>Deliver</h4>
+          <p>Provide high-quality creative assets ready for publication.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <span class="label" data-reveal="up">Contact</span>
+          <h2 class="contact-title" data-reveal="up" style="margin-top:18px;">Have a Project<br />in Mind?</h2>
+          <p class="section-sub" data-reveal="up" style="max-width:440px;">Let&rsquo;s turn your next idea into something unforgettable.</p>
+          <div style="margin-top:30px;" data-reveal="up">
+            <a href="mailto:abrolestudio@gmail.com" class="btn btn--primary btn--lg" data-magnetic>Let&rsquo;s Work Together <span class="arrow">→</span></a>
+          </div>
+
+          <div class="contact-info">
+            <a href="mailto:abrolestudio@gmail.com" data-reveal="up">
+              <span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5l8.5 6 8.5-6"/></svg></span>
+              <span><small>Email</small><b>abrolestudio@gmail.com</b></span>
+            </a>
+            <a href="tel:+919918852661" data-reveal="up">
+              <span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3h3l2 5-2.5 1.5a12 12 0 0 0 6 6L16 13l5 2v3a2 2 0 0 1-2.2 2A16 16 0 0 1 4 5.2 2 2 0 0 1 6 3Z"/></svg></span>
+              <span><small>Phone</small><b>+91 99188 52661</b></span>
+            </a>
+            <a href="https://wa.me/919918852661" target="_blank" rel="noopener" data-reveal="up">
+              <span class="ci-ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Z"/></svg></span>
+              <span><small>WhatsApp</small><b>Chat on WhatsApp</b></span>
+            </a>
+            <div data-reveal="up">
+              <span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
+              <span><small>Based in</small><b>Mumbai, Maharashtra, India</b></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="form-card" data-reveal="right">
+          <form id="inquiryForm" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="f-name">Name</label>
+                <input id="f-name" name="name" type="text" placeholder="Your name" required />
+              </div>
+              <div class="field">
+                <label for="f-email">Email</label>
+                <input id="f-email" name="email" type="email" placeholder="you@email.com" required />
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="f-type">Project Type</label>
+                <select id="f-type" name="projectType" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option>Video Editing</option>
+                  <option>Graphic Design</option>
+                  <option>Motion Graphics</option>
+                  <option>AI-Powered Content</option>
+                  <option>Brand Film / Commercial</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="f-budget">Budget Range <span style="text-transform:none;letter-spacing:0;">(optional)</span></label>
+                <select id="f-budget" name="budget">
+                  <option value="" disabled selected>Select a range</option>
+                  <option>Under ₹10,000</option>
+                  <option>₹10,000 – ₹25,000</option>
+                  <option>₹25,000 – ₹50,000</option>
+                  <option>₹50,000 – ₹1,00,000</option>
+                  <option>₹1,00,000+</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-details">Project Details</label>
+              <textarea id="f-details" name="details" placeholder="Tell me about your project, timeline and goals…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg btn--block" data-magnetic>Send Project Inquiry <span class="arrow">→</span></button>
+            <p class="form-note">Prefer email? Write to <a href="mailto:abrolestudio@gmail.com" style="color:var(--blue-2)">abrolestudio@gmail.com</a> or message on WhatsApp.</p>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div data-reveal="up">
+        <div class="footer-brand">
+          <span class="brand-mark"><img src="assets/logo-mark.png" alt="ABROLE STUDIO monogram" width="46" height="46" /></span>
+          <span class="brand-text"><b>ABROLE</b><span>STUDIO</span></span>
+        </div>
+        <p class="footer-tag">Creative visuals. Powerful stories. Cinematic precision, creative thinking and premium execution.</p>
+      </div>
+      <div data-reveal="up">
+        <h5>Navigate</h5>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div data-reveal="up">
+        <h5>Connect</h5>
+        <div class="footer-links" style="margin-bottom:20px;">
+          <a href="mailto:abrolestudio@gmail.com">abrolestudio@gmail.com</a>
+          <a href="tel:+919918852661">+91 99188 52661</a>
+          <a href="https://wa.me/919918852661" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <div class="footer-socials">
+          <a class="social-btn" href="https://instagram.com/abrolestudio" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a class="social-btn" href="https://youtube.com/@abrolestudio" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.45-5.17a2.6 2.6 0 0 0-1.83-1.84C19.05 4.5 12 4.5 12 4.5s-7.05 0-8.72.49A2.6 2.6 0 0 0 1.45 6.83C1 8.5 1 12 1 12s0 3.5.45 5.17a2.6 2.6 0 0 0 1.83 1.84C4.95 19.5 12 19.5 12 19.5s7.05 0 8.72-.49a2.6 2.6 0 0 0 1.83-1.84C23 15.5 23 12 23 12Zm-13 3.2V8.8l5.2 3.2-5.2 3.2Z"/></svg>
+          </a>
+          <a class="social-btn" href="https://wa.me/919918852661" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2025</span> ABROLE STUDIO — All rights reserved.</span>
+      <span>Designed &amp; Edited by Abhi Yadav</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MODAL ============ -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" data-close aria-label="Close project">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="modal-media" id="modalMedia"></div>
+    <div class="modal-body">
+      <div class="work-cat" id="modalCat"></div>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <div class="modal-tags" id="modalTags"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
